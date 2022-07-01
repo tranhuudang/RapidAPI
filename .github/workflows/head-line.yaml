@@ -1,4 +1,4 @@
-name: Main
+name: rapid-api
 
 on:
   schedule:
@@ -6,9 +6,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  Main:
+  get-headline:
     runs-on: ubuntu-latest
     steps:
-      - uses: JamesIves/fetch-api-data-action@v2
+      - name: Get Headline
+        uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://newsapi.org/v2/top-headlines?language=en&pageSize=35&apiKey=6e9d9069fd6d4fad98e12e7e08d4967f
