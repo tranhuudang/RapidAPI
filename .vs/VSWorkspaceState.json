@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows"
   ],
-  "SelectedNode": "\\C:\\Users\\tranh\\Source\\Repos\\RapidAPI",
+  "SelectedNode": "\\.github\\workflows\\head-line.yaml",
   "PreviewInSolutionExplorer": false
 }
